@@ -1,0 +1,169 @@
+ros-jazzy-flexbe-behavior-engine (3.0.3-1trixie) trixie; urgency=high
+
+
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Wed, 05 Jun 2024 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (3.0.2-1trixie) trixie; urgency=high
+
+
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Mon, 03 Jun 2024 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (3.0.1-1trixie) trixie; urgency=high
+
+
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Thu, 30 May 2024 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (3.0.0-1trixie) trixie; urgency=high
+
+  * update with state map and changes to concurrent handling
+  * allow removing action clients and service callers
+  * flake 8 cleanup
+  * support state id and concurrency handling
+  * specify version 4.0+ of the FlexBE UI
+  * add link for new flexbe_webui
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Tue, 30 Apr 2024 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (2.3.4-1trixie) trixie; urgency=high
+
+  * update CMakeLists cmake_minimum_version
+  * Updates to dependencies for ROS build farm
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Tue, 30 Apr 2024 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (2.3.3-1trixie) trixie; urgency=high
+
+
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Tue, 08 Aug 2023 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (2.3.2-1trixie) trixie; urgency=high
+
+
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Mon, 31 Jul 2023 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (2.3.1-1trixie) trixie; urgency=high
+
+  * Update flexbe_ci.yml for mailto:actions/checkout@v3
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Sun, 30 Jul 2023 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (2.3.0-1trixie) trixie; urgency=high
+
+  * update CMakeLists cmake_minimum_version
+  * Updates to dependencies for ROS build farm
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Wed, 19 Jul 2023 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (2.2.0-1trixie) trixie; urgency=high
+
+  * [flexbe_core, flexbe_onboard, flexbe_mirror, flexbe_widget]
+    - Use behavior_key and behavior_id for consistency
+    - rework mirror and be_launcher to prevent deadlocks
+    - add heartbeat messages to mirror and launcher
+    - pep257 and flake8 cleanup
+  * [flexbe_msgs] Add comments and modify BehaviorSelection message to use
+    behavior_key and behavior_id for consistency with other messages
+  * update README links; tweak LICENSE and package info
+  * Modify shutdown handling for clean stop
+  * Modify wait() handling to avoid creating a rate object
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Wed, 28 Jun 2023 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (2.1.0-1trixie) trixie; urgency=high
+
+  * ROS 2 Humble release
+  * Includes changes sync check handling
+  * Add formatted traceback to local log for behavior errors
+  * Tested under Ubuntu 22.04 and ROS Humble
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Mon, 01 Aug 2022 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (2.0.0-1trixie) trixie; urgency=high
+
+  * Initial ROS 2 "foxy" release based on ROS 1 commit a343c657
+  * Includes changes to concurrent state and sleep handling
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Mon, 21 Feb 2022 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.3.1-1trixie) trixie; urgency=high
+
+
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Thu, 10 Dec 2020 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.3.0-1trixie) trixie; urgency=high
+
+
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Wed, 18 Nov 2020 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.2.5-1trixie) trixie; urgency=high
+
+  * Merge branch 'develop' into feature/state_logger_rework
+  * Contributors: Philipp Schillinger
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Sat, 13 Jun 2020 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.2.4-1trixie) trixie; urgency=high
+
+
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Tue, 24 Mar 2020 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.2.3-1trixie) trixie; urgency=high
+
+  * Merge remote-tracking branch 'origin/develop' into feature/test_behaviors
+    # Conflicts:
+    #     flexbe_testing/bin/testing_node
+    #     flexbe_testing/src/flexbe_testing/state_tester.py
+  * Contributors: Philipp Schillinger
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Thu, 09 Jan 2020 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.2.2-1trixie) trixie; urgency=high
+
+
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Sun, 15 Sep 2019 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.2.1-1trixie) trixie; urgency=high
+
+  * Merge remote-tracking branch 'origin/feature/sub_parameters' into develop
+  * Bump required flexbe_app version
+  * Merge remote-tracking branch 'origin/master' into develop
+  * Contributors: Philipp Schillinger
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Sat, 01 Jun 2019 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.1.2-1trixie) trixie; urgency=high
+
+  * Merge remote-tracking branch 'origin/master' into develop
+  * Contributors: Philipp Schillinger
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Mon, 08 Apr 2019 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.1.1-1trixie) trixie; urgency=high
+
+  * Merge remote-tracking branch 'origin/master' into develop
+  * Contributors: Philipp Schillinger
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Mon, 17 Dec 2018 16:00:00 -0000
+
+ros-jazzy-flexbe-behavior-engine (1.1.0-1trixie) trixie; urgency=high
+
+  * Merge branch 'develop'
+  * Merge branch 'feature/flexbe_app' into develop
+  * Update maintainer information
+  * Merge pull request #55 <https://github.com/team-vigir/flexbe_behavior_engine/issues/55> from alireza-hosseini/add-metapackage
+    feat: Add flexbe_behavior_engine metapackage
+  * feat: Add flexbe_behavior_engine metapackage
+  * Contributors: Philipp Schillinger, alireza
+
+ -- Philipp Schillinger <philsplus@gmail.com>  Fri, 30 Nov 2018 16:00:00 -0000
+
+
