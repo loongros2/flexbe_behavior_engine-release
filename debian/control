@@ -1,0 +1,12 @@
+Source: ros-jazzy-flexbe-core
+Section: misc
+Priority: optional
+Maintainer: Philipp Schillinger <philsplus@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-jazzy-ament-copyright <!nocheck>, ros-jazzy-ament-flake8 <!nocheck>, ros-jazzy-ament-pep257 <!nocheck>, ros-jazzy-flexbe-msgs, ros-jazzy-launch-ros <!nocheck>, ros-jazzy-launch-testing <!nocheck>, ros-jazzy-rclpy, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-ros-py, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://ros.org/wiki/flexbe_core
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-flexbe-core
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-jazzy-flexbe-msgs, ros-jazzy-rclpy, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-ros-py, ros-jazzy-ros-workspace
+Description: flexbe_core provides the core components for the FlexBE behavior engine.
